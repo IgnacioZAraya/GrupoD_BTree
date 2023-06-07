@@ -19,14 +19,14 @@ public class Main {
 
             switch (opcion){
                 case "1":
-                    System.out.printf("Escriba el valor: "+"\n");
+                    System.out.print("Escriba el valor: "+"\n");
                     int v = intInput.nextInt();
                     bArbol.insertarValor(v);
                     break;
                 case "2":
-                    System.out.printf("Arbol: "+"\n");
+                    System.out.print("Arbol: "+"\n");
                     bArbol.MostrarArbol();
-                    System.out.printf("Fin"+"\n");
+                    System.out.print("Fin"+"\n");
                     break;
                 case "3":
 
