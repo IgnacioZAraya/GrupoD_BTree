@@ -20,8 +20,8 @@ public class Main {
             switch (opcion){
                 case "1":
                     System.out.print("Escriba el valor: "+"\n");
-                    int v = intInput.nextInt();
-                    bArbol.insertarValor(v);
+                    int v1 = intInput.nextInt();
+                    bArbol.insertarValor(v1);
                     break;
                 case "2":
                     System.out.print("Arbol: "+"\n");
@@ -29,7 +29,9 @@ public class Main {
                     System.out.print("Fin"+"\n");
                     break;
                 case "3":
-
+                    System.out.print("Escriba el valor que quiere eliminar: "+"\n");
+                    int v2 = intInput.nextInt();
+                    bArbol.Remover(v2);
                     break;
                 default:
                     seguir = false;
